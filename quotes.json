@@ -13,5 +13,490 @@
         "id": 3,
         "author": "Maya Angelou",
         "quote": "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel."
+    },
+    {
+        "id": 4,
+        "author": "Oscar Wilde",
+        "quote": "Be yourself; everyone else is already taken."
+    },
+    {
+        "id": 5,
+        "author": "Mark Twain",
+        "quote": "The secret of getting ahead is getting started."
+    },
+    {
+        "id": 6,
+        "author": "Eleanor Roosevelt",
+        "quote": "No one can make you feel inferior without your consent."
+    },
+    {
+        "id": 7,
+        "author": "Winston Churchill",
+        "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts."
+    },
+    {
+        "id": 8,
+        "author": "Nelson Mandela",
+        "quote": "Education is the most powerful weapon which you can use to change the world."
+    },
+    {
+        "id": 9,
+        "author": "Walt Disney",
+        "quote": "All our dreams can come true, if we have the courage to pursue them."
+    },
+    {
+        "id": 10,
+        "author": "Confucius",
+        "quote": "It does not matter how slowly you go as long as you do not stop."
+    },
+    {
+        "id": 11,
+        "author": "Oprah Winfrey",
+        "quote": "The biggest adventure you can take is to live the life of your dreams."
+    },
+    {
+        "id": 12,
+        "author": "Theodore Roosevelt",
+        "quote": "Believe you can and you're halfway there."
+    },
+    {
+        "id": 13,
+        "author": "Mahatma Gandhi",
+        "quote": "Be the change that you wish to see in the world."
+    },
+    {
+        "id": 14,
+        "author": "Ralph Waldo Emerson",
+        "quote": "What lies behind us and what lies before us are tiny matters compared to what lies within us."
+    },
+    {
+        "id": 15,
+        "author": "Abraham Lincoln",
+        "quote": "The best way to predict the future is to create it."
+    },
+    {
+        "id": 16,
+        "author": "Stephen King",
+        "quote": "Get busy living or get busy dying."
+    },
+    {
+        "id": 17,
+        "author": "J.K. Rowling",
+        "quote": "It is our choices, Harry, that show what we truly are, far more than our abilities."
+    },
+    {
+        "id": 18,
+        "author": "Buddha",
+        "quote": "The mind is everything. What you think you become."
+    },
+    {
+        "id": 19,
+        "author": "Leonardo da Vinci",
+        "quote": "Learning never exhausts the mind."
+    },
+    {
+        "id": 20,
+        "author": "Coco Chanel",
+        "quote": "The most courageous act is still to think for yourself. Aloud."
+    },
+    {
+        "id": 21,
+        "author": "Benjamin Franklin",
+        "quote": "Tell me and I forget. Teach me and I remember. Involve me and I learn."
+    },
+    {
+        "id": 22,
+        "author": "Aristotle",
+        "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit."
+    },
+    {
+        "id": 23,
+        "author": "Martin Luther King Jr.",
+        "quote": "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that."
+    },
+    {
+        "id": 24,
+        "author": "Helen Keller",
+        "quote": "The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart."
+    },
+    {
+        "id": 25,
+        "author": "Zig Ziglar",
+        "quote": "You don't have to be great to start, but you have to start to be great."
+    },
+    {
+        "id": 26,
+        "author": "Vince Lombardi",
+        "quote": "The only place success comes before work is in the dictionary."
+    },
+    {
+        "id": 27,
+        "author": "Wayne Gretzky",
+        "quote": "You miss 100% of the shots you don't take."
+    },
+    {
+        "id": 28,
+        "author": "Friedrich Nietzsche",
+        "quote": "That which does not kill us makes us stronger."
+    },
+    {
+        "id": 29,
+        "author": "Bruce Lee",
+        "quote": "Empty your mind, be formless, shapeless, like water. If you put water into a cup, it becomes the cup. You put water into a bottle and it becomes the bottle. You put it in a teapot, it becomes the teapot. Now, water can flow or it can crash. Be water, my friend."
+    },
+    {
+        "id": 30,
+        "author": "Steve Martin",
+        "quote": "Be so good they can't ignore you."
+    },
+    {
+        "id": 31,
+        "author": "George Bernard Shaw",
+        "quote": "Life isn't about finding yourself. Life is about creating yourself."
+    },
+    {
+        "id": 32,
+        "author": "Anne Frank",
+        "quote": "Despite everything, I believe that people are really good at heart."
+    },
+    {
+        "id": 33,
+        "author": "Dalai Lama",
+        "quote": "Happiness is not something ready made. It comes from your own actions."
+    },
+    {
+        "id": 34,
+        "author": "Jim Rohn",
+        "quote": "Discipline is the bridge between goals and accomplishment."
+    },
+    {
+        "id": 35,
+        "author": "Napoleon Hill",
+        "quote": "Whatever the mind can conceive and believe, it can achieve."
+    },
+    {
+        "id": 36,
+        "author": "Paulo Coelho",
+        "quote": "When you want something, all the universe conspires in helping you to achieve it."
+    },
+    {
+        "id": 37,
+        "author": "Mother Teresa",
+        "quote": "Not all of us can do great things. But we can do small things with great love."
+    },
+    {
+        "id": 38,
+        "author": "Sun Tzu",
+        "quote": "The supreme art of war is to subdue the enemy without fighting."
+    },
+    {
+        "id": 39,
+        "author": "Socrates",
+        "quote": "The only true wisdom is in knowing you know nothing."
+    },
+    {
+        "id": 40,
+        "author": "Voltaire",
+        "quote": "Judge a man by his questions rather than by his answers."
+    },
+    {
+        "id": 41,
+        "author": "Plato",
+        "quote": "The beginning is the most important part of the work."
+    },
+    {
+        "id": 42,
+        "author": "Rumi",
+        "quote": "The wound is the place where the Light enters you."
+    },
+    {
+        "id": 43,
+        "author": "Harriet Tubman",
+        "quote": "Every great dream begins with a dreamer. Always remember, you have within you the strength, the patience, and the passion to reach for the stars to change the world."
+    },
+    {
+        "id": 44,
+        "author": "Malala Yousafzai",
+        "quote": "One child, one teacher, one book, one pen can change the world."
+    },
+    {
+        "id": 45,
+        "author": "Bill Gates",
+        "quote": "It's fine to celebrate success but it is more important to heed the lessons of failure."
+    },
+    {
+        "id": 46,
+        "author": "Colin Powell",
+        "quote": "There are no secrets to success. It is the result of preparation, hard work, and learning from failure."
+    },
+    {
+        "id": 47,
+        "author": "Lao Tzu",
+        "quote": "A journey of a thousand miles begins with a single step."
+    },
+    {
+        "id": 48,
+        "author": "J.R.R. Tolkien",
+        "quote": "Not all those who wander are lost."
+    },
+    {
+        "id": 49,
+        "author": "Audrey Hepburn",
+        "quote": "Nothing is impossible, the word itself says 'I'm possible'!"
+    },
+    {
+        "id": 50,
+        "author": "Pablo Picasso",
+        "quote": "Every child is an artist. The problem is how to remain an artist once he grows up."
+    },
+    {
+        "id": 51,
+        "author": "Thomas Edison",
+        "quote": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time."
+    },
+    {
+        "id": 52,
+        "author": "Marie Curie",
+        "quote": "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less."
+    },
+    {
+        "id": 53,
+        "author": "Victor Hugo",
+        "quote": "To love or have loved, that is enough. Ask nothing further. There is no other pearl to be found in the dark folds of life."
+    },
+    {
+        "id": 54,
+        "author": "Seneca",
+        "quote": "Luck is what happens when preparation meets opportunity."
+    },
+    {
+        "id": 55,
+        "author": "Maya Angelou",
+        "quote": "If you don't like something, change it. If you can't change it, change your attitude."
+    },
+    {
+        "id": 56,
+        "author": "Marilyn Monroe",
+        "quote": "Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring."
+    },
+    {
+        "id": 57,
+        "author": "Confucius",
+        "quote": "Our greatest glory is not in never falling, but in rising every time we fall."
+    },
+    {
+        "id": 58,
+        "author": "Aristotle",
+        "quote": "It is during our darkest moments that we must focus to see the light."
+    },
+    {
+        "id": 59,
+        "author": "Ralph Waldo Emerson",
+        "quote": "Do not go where the path may lead, go instead where there is no path and leave a trail."
+    },
+    {
+        "id": 60,
+        "author": "Lao Tzu",
+        "quote": "The journey of a thousand miles begins with a single step."
+    },
+    {
+        "id": 61,
+        "author": "Stephen Covey",
+        "quote": "Most people do not listen with the intent to understand; they listen with the intent to reply."
+    },
+    {
+        "id": 62,
+        "author": "Vidal Sassoon",
+        "quote": "The only place where success comes before work is in the dictionary."
+    },
+    {
+        "id": 63,
+        "author": "Amelia Earhart",
+        "quote": "The most effective way to do it, is to do it."
+    },
+    {
+        "id": 64,
+        "author": "Robert Frost",
+        "quote": "In three words I can sum up everything I've learned about life: it goes on."
+    },
+    {
+        "id": 65,
+        "author": "Dalai Lama",
+        "quote": "The purpose of our lives is to be happy."
+    },
+    {
+        "id": 66,
+        "author": "Franklin D. Roosevelt",
+        "quote": "The only thing we have to fear is fear itself."
+    },
+    {
+        "id": 67,
+        "author": "Virginia Woolf",
+        "quote": "A woman must have money and a room of her own if she is to write fiction."
+    },
+    {
+        "id": 68,
+        "author": "Haruki Murakami",
+        "quote": "And once the storm is over, you won’t remember how you made it through, how you managed to survive. You won’t even be sure, in fact, whether the storm is really over. But one thing is certain. When you come out of the storm, you won’t be the same person who walked in."
+    },
+    {
+        "id": 69,
+        "author": "C.S. Lewis",
+        "quote": "You are never too old to set another goal or to dream a new dream."
+    },
+    {
+        "id": 70,
+        "author": "Henry Ford",
+        "quote": "Whether you think you can, or you think you can't – you're right."
+    },
+    {
+        "id": 71,
+        "author": "Helen Keller",
+        "quote": "Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence."
+    },
+    {
+        "id": 72,
+        "author": "Wayne Dyer",
+        "quote": "The past is over, learn from it and let it go. The future is coming, prepare for it. The present is here, live it."
+    },
+    {
+        "id": 73,
+        "author": "Steve Jobs",
+        "quote": "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do."
+    },
+    {
+        "id": 74,
+        "author": "Maya Angelou",
+        "quote": "You can't use up creativity. The more you use, the more you have."
+    },
+    {
+        "id": 75,
+        "author": "Leo Tolstoy",
+        "quote": "If you want to be happy, be."
+    },
+    {
+        "id": 76,
+        "author": "George Eliot",
+        "quote": "It is never too late to be what you might have been."
+    },
+    {
+        "id": 77,
+        "author": "Eleanor Roosevelt",
+        "quote": "The future belongs to those who believe in the beauty of their dreams."
+    },
+    {
+        "id": 78,
+        "author": "Ralph Waldo Emerson",
+        "quote": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment."
+    },
+    {
+        "id": 79,
+        "author": "Walt Whitman",
+        "quote": "Keep your face always toward the sunshine—and shadows will fall behind you."
+    },
+    {
+        "id": 80,
+        "author": "Rene Descartes",
+        "quote": "Cogito, ergo sum. (I think, therefore I am.)"
+    },
+    {
+        "id": 81,
+        "author": "Anaïs Nin",
+        "quote": "And the day came when the risk to remain tight in a bud was more painful than the risk it took to blossom."
+    },
+    {
+        "id": 82,
+        "author": "Siddhartha Gautama (Buddha)",
+        "quote": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment."
+    },
+    {
+        "id": 83,
+        "author": "Muhammad Ali",
+        "quote": "Don't count the days, make the days count."
+    },
+    {
+        "id": 84,
+        "author": "Pablo Neruda",
+        "quote": "You are the sum of all the moments that went before you, a compilation of every experience, every word, every silence."
+    },
+    {
+        "id": 85,
+        "author": "Jane Austen",
+        "quote": "There is no charm equal to tenderness of heart."
+    },
+    {
+        "id": 86,
+        "author": "Malcom X",
+        "quote": "The future belongs to those who prepare for it today."
+    },
+    {
+        "id": 87,
+        "author": "H. Jackson Brown Jr.",
+        "quote": "Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do."
+    },
+    {
+        "id": 88,
+        "author": "Dr. Seuss",
+        "quote": "You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose."
+    },
+    {
+        "id": 89,
+        "author": "Zig Ziglar",
+        "quote": "If you can dream it, you can achieve it."
+    },
+    {
+        "id": 90,
+        "author": "Henry David Thoreau",
+        "quote": "Go confidently in the direction of your dreams! Live the life you've imagined."
+    },
+    {
+        "id": 91,
+        "author": "Friedrich Nietzsche",
+        "quote": "He who has a 'why' to live, can bear almost any 'how'."
+    },
+    {
+        "id": 92,
+        "author": "Booker T. Washington",
+        "quote": "Success is not measured by what you accomplish, but by the opposition you have encountered, and the courage with which you have maintained the struggle against overwhelming odds."
+    },
+    {
+        "id": 93,
+        "author": "Benjamin Disraeli",
+        "quote": "Action may not always bring happiness, but there is no happiness without action."
+    },
+    {
+        "id": 94,
+        "author": "J.K. Rowling",
+        "quote": "It matters not what someone is born, but what they grow to be."
+    },
+    {
+        "id": 95,
+        "author": "Bruce Lee",
+        "quote": "The successful warrior is the average man, with laser-like focus."
+    },
+    {
+        "id": 96,
+        "author": "Vidal Sassoon",
+        "quote": "If you don't look good, we don't look good."
+    },
+    {
+        "id": 97,
+        "author": "Oscar Wilde",
+        "quote": "To live is the rarest thing in the world. Most people exist, that is all."
+    },
+    {
+        "id": 98,
+        "author": "Albert Camus",
+        "quote": "In the depth of winter, I finally learned that within me lay an invincible summer."
+    },
+    {
+        "id": 99,
+        "author": "Confucius",
+        "quote": "Life is really simple, but we insist on making it complicated."
+    },
+    {
+        "id": 100,
+        "author": "Mark Twain",
+        "quote": "The two most important days in your life are the day you are born and the day you find out why."
     }
 ]
