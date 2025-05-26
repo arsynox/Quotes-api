@@ -1,1 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Quotes API Documentation</title>
+<style>
+  /* Reset & base */
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #121212;
+    color: #eee;
+    line-height: 1.6;
+  }
+  header {
+    background: #1f2937;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+  }
+  header h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: 1.5px;
+    color: #60a5fa;
+  }
+  main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  section {
+    background: #1e293b;
+    padding: 1.8rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgb(96 165 250 / 0.3);
+  }
+  section h2 {
+    margin-top: 0;
+    color: #93c5fd;
+    font-weight: 600;
+  }
+  button {
+    background: #2563eb;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background: #3b82f6;
+  }
+  pre {
+    background: #0f172a;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-size: 0.9rem;
+  }
+  label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: 600;
+  }
+  input[type="number"] {
+    width: 80px;
+    padding: 0.4rem 0.6rem;
+    border-radius: 6px;
+    border: 1px solid #3b82f6;
+    background: #1e293b;
+    color: white;
+    font-size: 1rem;
+    margin-top: 0.3rem;
+  }
+  .footer {
+    text-align: center;
+    color: #475569;
+    margin: 4rem 0 2rem;
+    font-size: 0.9rem;
+  }
+  /* API URL style */
+  .api-url {
+    background: #0e1a3a;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    font-family: monospace;
+    color: #7dd3fc;
+    user-select: all;
+    margin-bottom: 1rem;
+    overflow-x: auto;
+    box-shadow: 0 0 8px #7dd3fc;
+  }
+  /* Responsive */
+  @media (max-width: 600px) {
+    main {
+      margin: 1rem;
+      padding: 0;
+    }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Quotes API</h1>
+  <p>Quotes API documentation </p>
+</header>
+<main>
+  <section>
+    <h2>1. Get Random Quote</h2>
+    <p>Endpoint:</p>
+    <pre class="api-url">GET https://quotes-api-w4zt.onrender.com/api/quotes/random</pre>
+    <button id="btn-random">Fetch Random Quote</button>
+    <pre id="random-output">Response will appear here...</pre>
+  </section>
 
+  <section>
+    <h2>2. Get Quote by ID</h2>
+    <p>Endpoint:</p>
+    <pre class="api-url">GET https://quotes-api-w4zt.onrender.com/api/quotes/{id}</pre>
+    <label for="quote-id">Enter Quote ID:</label>
+    <input type="number" id="quote-id" min="1" value="1" />
+    <button id="btn-id">Fetch Quote by ID</button>
+    <pre id="id-output">Response will appear here...</pre>
+  </section>
+
+  <section>
+    <h2>3. Get All Quotes</h2>
+    <p>Endpoint:</p>
+    <pre class="api-url">GET https://quotes-api-w4zt.onrender.com/api/quotes</pre>
+    <button id="btn-all">Fetch All Quotes</button>
+    <pre id="all-output">Response will appear here...</pre>
+  </section>
+</main>
+<div class="footer">© 2025 Quotes API Documentation</div>
+
+<script>
+  const baseUrl = "https://quotes-api-w4zt.onrender.com";
+
+  // Helper to format JSON nicely
+  function prettyPrint(json) {
+    return JSON.stringify(json, null, 2);
+  }
+
+  // Random quote button
+  document.getElementById("btn-random").addEventListener("click", async () => {
+    const output = document.getElementById("random-output");
+    output.textContent = "Loading...";
+    try {
+      const res = await fetch(baseUrl + "/api/quotes/random");
+      if(!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+      const data = await res.json();
+      output.textContent = prettyPrint(data);
+    } catch (err) {
+      output.textContent = `Error: ${err.message}`;
+    }
+  });
+
+  // Quote by ID button
+  document.getElementById("btn-id").addEventListener("click", async () => {
+    const output = document.getElementById("id-output");
+    const id = document.getElementById("quote-id").value.trim();
+    if (!id) {
+      output.textContent = "Please enter a valid quote ID.";
+      return;
+    }
+    output.textContent = "Loading...";
+    try {
+      const res = await fetch(`${baseUrl}/api/quotes/${id}`);
+      if(!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+      const data = await res.json();
+      output.textContent = prettyPrint(data);
+    } catch (err) {
+      output.textContent = `Error: ${err.message}`;
+    }
+  });
+
+  // All quotes button
+  document.getElementById("btn-all").addEventListener("click", async () => {
+    const output = document.getElementById("all-output");
+    output.textContent = "Loading...";
+    try {
+      const res = await fetch(baseUrl + "/api/quotes");
+      if(!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+      const data = await res.json();
+      output.textContent = prettyPrint(data);
+    } catch (err) {
+      output.textContent = `Error: ${err.message}`;
+    }
+  });
+</script>
+</body>
+</html>
